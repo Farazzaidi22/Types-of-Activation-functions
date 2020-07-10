@@ -14,7 +14,7 @@ public class Brain : MonoBehaviour
 
         List<double> results;
 
-        for(int i = 0; i < 1000; i++)
+        for(int i = 0; i < 200000; i++)
         {
             sumSquareError = 0;
             //XOR operation

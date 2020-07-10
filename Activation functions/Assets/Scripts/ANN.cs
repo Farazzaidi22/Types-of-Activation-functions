@@ -141,7 +141,7 @@ public class ANN
 
     double ActivationFunction(double value)
     {
-        return Sigmoid(value);
+        return LeakyReLu(value);
     }
 
     //(aka binary step)
