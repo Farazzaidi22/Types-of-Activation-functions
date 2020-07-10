@@ -189,4 +189,20 @@ public class ANN
         if (value > 0) return value;
         else return 0.001 * value;
     }
+
+    double Sinusoid(double value) //type of activation function
+    {
+        return System.Math.Sin(value);
+    }
+
+    double ArcTan(double value) //type of activation function
+    {
+        return Mathf.Atan((float)value);
+    }
+
+    //also known as elliotsig
+    double SoftSign(double value) //type of activation function
+    {
+        return value / (1 + Mathf.Abs((float)value));
+    }
 }
